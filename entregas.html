@@ -11,7 +11,7 @@
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1585419845" title="wsite-theme-css" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1585461349" title="wsite-theme-css" />
 
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
@@ -197,19 +197,145 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 
 <h2 class="wsite-content-title"><font color="#000fff">ENTREGAS REALIZADAS</font></h2>
 
+<div id="633145144353459546"><div><style type="text/css">
+	#element-55064101-933a-491c-8579-8c49af8e4a59 .content-color-box-wrapper {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgba(57,150,184,0);
+  border-style: Solid;
+  border-color: #d5d5d5;
+  border-width: 1px;
+}
+
+</style><div id="element-55064101-933a-491c-8579-8c49af8e4a59" data-platform-element-id="698263678581730663-1.1.0" class="platform-element-contents">
+<div class="content-color-box-wrapper">
+<div style="width: 100%"><div></div><div><div id="194765469424009404" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><iframe width="800" height="450" src="http://embed.chartblocks.com/1.0/?c=5e7f6e203ba0f66437178810&t=99751d20a42a992" frameBorder="0"></iframe></div>
+
+
+
+</div></div>
+</div>
+</div>
+<div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement633145144353459546() {
+	var requireFunc = window.platformElementRequire || window.require;
+
+	// Relies on a global require, specific to platform elements
+	requireFunc([
+		'w-global',
+		'underscore',
+		'jquery',
+		'backbone',
+		'util/platform/elements/PlatformElement',
+		'util/platform/elements/PlatformElementSettings'
+	], function(
+		_W,
+		_,
+		$,
+		Backbone,
+		PlatformElement,
+		PlatformElementSettings
+	) {
+		var dependencies = null || [];
+		var platform_element_id = "698263678581730663-1.1.0";
+
+		if (typeof _W.loadedPlatformDependencies === 'undefined') {
+			_W.loadedPlatformDependencies = [];
+		}
+
+		if (typeof _W.platformElements === 'undefined') {
+			_W.platformElements = [];
+		}
+
+		if (typeof _W.platformElements[platform_element_id] === 'undefined') {
+			_W.platformElements[platform_element_id] = {};
+			_W.platformElements[platform_element_id].deferredObject = new $.Deferred();
+			_W.platformElements[platform_element_id].deferredPromise = _W.platformElements[platform_element_id].deferredObject.promise();
+		}
+
+		if(_.intersection(_W.loadedPlatformDependencies, dependencies).length !== dependencies.length){
+			_.reduce(dependencies, function(promise, nextScript){
+				_W.loadedPlatformDependencies.push(nextScript);
+				return promise.then(function(){
+					return $.getScript(nextScript);
+				});
+			}, $().promise()).then(function(){
+				_W.platformElements[platform_element_id].deferredObject.resolve();
+			});
+		}
+
+		if (dependencies.length === 0){
+			_W.platformElements[platform_element_id].deferredObject.resolve();
+		}
+
+		_W.platformElements[platform_element_id].deferredPromise.done(function(){
+			var _ElementDefinition = PlatformElement.extend({initialize:function(options){},events:{}});;
+
+			if (typeof _ElementDefinition == 'undefined' || typeof _ElementDefinition == 'null') {
+				var _ElementDefinition = PlatformElement.extend({});
+			}
+
+			var _Element = _ElementDefinition.extend({
+				initialize: function() {
+					// we still want to call the initialize function defined by the developer
+					// however, we don't want to call it until placeholders have been replaced
+					this.placeholderInterval = setInterval(function() {
+						// so use setInterval to check for placeholders.
+						if (this.$('.platform-element-child-placeholder').length == 0) {
+							clearInterval(this.placeholderInterval);
+							this.constructor.__super__.initialize.apply(this);
+						}
+					}.bind(this), 100);
+				}
+			});
+
+			_Element.prototype.settings = new PlatformElementSettings({"spacingSize_each":[{"spacingSize_index":0},{"spacingSize_index":1},{"spacingSize_index":2},{"spacingSize_index":3},{"spacingSize_index":4},{"spacingSize_index":5},{"spacingSize_index":6},{"spacingSize_index":7},{"spacingSize_index":8},{"spacingSize_index":9},{"spacingSize_index":10},{"spacingSize_index":11},{"spacingSize_index":12},{"spacingSize_index":13},{"spacingSize_index":14},{"spacingSize_index":15},{"spacingSize_index":16},{"spacingSize_index":17},{"spacingSize_index":18},{"spacingSize_index":19}],"cornerRadius_each":[{"cornerRadius_index":0},{"cornerRadius_index":1},{"cornerRadius_index":2},{"cornerRadius_index":3},{"cornerRadius_index":4}],"borderWidth_each":[{"borderWidth_index":0}],"backgroundColor":"#3996B8","backgroundTransparency":0,"spacingSize":20,"cornerRadius":5,"borderStyle":"Solid","borderColor":"#d5d5d5","borderWidth":1,"borderTransparency":100});
+			_Element.prototype.settings.page_element_id = "633145144353459546";
+
+			_Element.prototype.element_id = "55064101-933a-491c-8579-8c49af8e4a59";
+			_Element.prototype.user_id = "5905695";
+			_Element.prototype.site_id = "658073344550621197";
+			_Element.prototype.assets_path = "//marketplace.editmysite.com/uploads/b/marketplace-elements-698263678581730663-1.1.0/assets/";
+			new _Element({
+				el: '#element-55064101-933a-491c-8579-8c49af8e4a59'
+			});
+		});
+	});
+
+}
+
+if (typeof document.documentElement.appReady == 'undefined') {
+	document.documentElement.appReady = 0;
+}
+
+if (document.documentElement.appReady || (window.inEditor && window.inEditor())) {
+	setupElement633145144353459546();
+} else if (document.createEvent && document.addEventListener) {
+	document.addEventListener('appReady', setupElement633145144353459546, false);
+} else {
+	document.documentElement.attachEvent('onpropertychange', function(event){
+		if (event.propertyName == 'appReady') {
+			setupElement633145144353459546();
+		}
+	});
+}
+
+</script></div></div>
+
+<div class="wsite-spacer" style="height:50px;"></div>
+
 <div id="777628067574321492"><div><style type="text/css">
 	#element-45d57a8c-3870-4a1d-8512-3bf3f74cf53b .content-color-box-wrapper {
   padding: 20px;
   border-radius: 5px;
   background-color: rgba(57,150,184,0);
   border-style: Solid;
-  border-color: #a1a1a1;
+  border-color: #d5d5d5;
   border-width: 1px;
 }
 
 </style><div id="element-45d57a8c-3870-4a1d-8512-3bf3f74cf53b" data-platform-element-id="698263678581730663-1.1.0" class="platform-element-contents">
 <div class="content-color-box-wrapper">
-<div style="width: 100%"><div></div><div class="paragraph">Podes ver el listado de algunas de las instituciones a las cuales les hemos aportado m&aacute;scaras:<br />-Hospital Pi&ntilde;eiro<br />-Hospital de Mor&oacute;n<br />-Hospital Santojanni<br />-SAME<br />-Swiss Medical, sector odontolog&iacute;a<br />-Corporaci&oacute;n M&eacute;dica<br />-Cl&iacute;nica Modelo de Caseros<br />-Hospital Churruca Visca<br />-Hospital Mariano y Luciano de la Vega<br />-Hospital Italiano<br />-Sanatorio G&uuml;emes<br />-Bomberos Voluntarios de Nueva Pompeya y Barracas<br />-Hospital Durand<br />-Armada Argentina<br /><span>-Hospital de Odontolog&iacute;a Dr. Ram&oacute;n Carrillo<br />-Hospital Rivadavia<br />-Hospital Mu&ntilde;iz<br />-Sanatorio Finochietto<br />-Hospital Militar de Campo de Mayo<br />-Hospital de Pedriatr&iacute;a Garrahan</span><br /></div></div>
+<div style="width: 100%"><div></div><div class="paragraph">Algunas de las instituciones a las cuales les hemos aportado m&aacute;scaras:<br />-Hospital Pi&ntilde;eiro<br />-Hospital de Mor&oacute;n<br />-Hospital Santojanni<br />-SAME<br />-Swiss Medical, sector odontolog&iacute;a<br />-Corporaci&oacute;n M&eacute;dica<br />-Cl&iacute;nica Modelo de Caseros<br />-Hospital Churruca Visca<br />-Hospital Mariano y Luciano de la Vega<br />-Hospital Italiano<br />-Sanatorio G&uuml;emes<br />-Bomberos Voluntarios de Nueva Pompeya y Barracas<br />-Hospital Durand<br />-Armada Argentina<br /><span>-Hospital de Odontolog&iacute;a Dr. Ram&oacute;n Carrillo<br />-Hospital Rivadavia<br />-Hospital Mu&ntilde;iz<br />-Sanatorio Finochietto<br />-Hospital Militar de Campo de Mayo<br />-Hospital de Pedriatr&iacute;a Garrahan<br />-Hospital Cosme Argerich<br />-Hospital Espa&ntilde;ol de Buenos Aires<br />-CEMAR N&deg;2 CABA<br />-Instituto del Transplante CABA</span></div></div>
 </div>
 </div>
 <div style="clear:both;"></div><script type="text/javascript" class="element-script">function setupElement777628067574321492() {
@@ -284,7 +410,7 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 				}
 			});
 
-			_Element.prototype.settings = new PlatformElementSettings({"spacingSize_each":[{"spacingSize_index":0},{"spacingSize_index":1},{"spacingSize_index":2},{"spacingSize_index":3},{"spacingSize_index":4},{"spacingSize_index":5},{"spacingSize_index":6},{"spacingSize_index":7},{"spacingSize_index":8},{"spacingSize_index":9},{"spacingSize_index":10},{"spacingSize_index":11},{"spacingSize_index":12},{"spacingSize_index":13},{"spacingSize_index":14},{"spacingSize_index":15},{"spacingSize_index":16},{"spacingSize_index":17},{"spacingSize_index":18},{"spacingSize_index":19}],"cornerRadius_each":[{"cornerRadius_index":0},{"cornerRadius_index":1},{"cornerRadius_index":2},{"cornerRadius_index":3},{"cornerRadius_index":4}],"borderWidth_each":[{"borderWidth_index":0}],"backgroundColor":"#3996B8","backgroundTransparency":0,"spacingSize":20,"cornerRadius":5,"borderStyle":"Solid","borderColor":"#a1a1a1","borderWidth":1,"borderTransparency":100});
+			_Element.prototype.settings = new PlatformElementSettings({"spacingSize_each":[{"spacingSize_index":0},{"spacingSize_index":1},{"spacingSize_index":2},{"spacingSize_index":3},{"spacingSize_index":4},{"spacingSize_index":5},{"spacingSize_index":6},{"spacingSize_index":7},{"spacingSize_index":8},{"spacingSize_index":9},{"spacingSize_index":10},{"spacingSize_index":11},{"spacingSize_index":12},{"spacingSize_index":13},{"spacingSize_index":14},{"spacingSize_index":15},{"spacingSize_index":16},{"spacingSize_index":17},{"spacingSize_index":18},{"spacingSize_index":19}],"cornerRadius_each":[{"cornerRadius_index":0},{"cornerRadius_index":1},{"cornerRadius_index":2},{"cornerRadius_index":3},{"cornerRadius_index":4}],"borderWidth_each":[{"borderWidth_index":0}],"backgroundColor":"#3996B8","backgroundTransparency":0,"spacingSize":20,"cornerRadius":5,"borderStyle":"Solid","borderColor":"#d5d5d5","borderWidth":1,"borderTransparency":100});
 			_Element.prototype.settings.page_element_id = "777628067574321492";
 
 			_Element.prototype.element_id = "45d57a8c-3870-4a1d-8512-3bf3f74cf53b";
@@ -319,12 +445,6 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 
 <div class="wsite-spacer" style="height:50px;"></div>
 
-<div><div id="194765469424009404" align="center" style="width: 100%; overflow-y: hidden;" class="wcustomhtml"><iframe width="800" height="450" src="http://embed.chartblocks.com/1.0/?c=5e7f6e203ba0f66437178810&t=99751d20a42a992" frameBorder="0"></iframe></div>
-
-
-
-</div>
-
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
 <hr class="styled-hr" style="width:100%;"></hr>
 <div style="height: 20px; overflow: hidden; width: 100%;"></div></div>
@@ -343,7 +463,7 @@ if (document.documentElement.appReady || (window.inEditor && window.inEditor()))
 
     </div>
 
-  </div>
+    </div>
 
   <div class="nav mobile-nav">
     <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
